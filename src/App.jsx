@@ -3,10 +3,12 @@ import Modal from "./Modal";
 import Sidebar from "./Sidebar";
 
 const App = () => {
-  return <main>
-    <Home/>
-    <Modal/>
-    <Sidebar/>
-  </main>;
+  return (
+    <>
+      <Home />
+      <Modal />
+      <Sidebar />
+    </>
+  );
 };
 export default App;
